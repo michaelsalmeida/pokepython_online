@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "name": "pokepython_online",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Api do game de simulador de batalhas pokémon em python",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelsalmeida/pokepython_online.git"
+  },
+  "keywords": [
+    "python",
+    "api",
+    "node",
+    "simulador"
+  ],
+  "author": "Michael Santos Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelsalmeida/pokepython_online/issues"
+  },
+  "homepage": "https://github.com/michaelsalmeida/pokepython_online#readme"
+}
